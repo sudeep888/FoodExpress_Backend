@@ -18,7 +18,7 @@ const corsOptions = {
     
     // List of allowed origins
     const allowedOrigins = [
-      'http://localhost:3001',
+      'http://localhost:3002',
       'https://food-express-frontend-henna.vercel.app/', // Your Vercel URL
       process.env.FRONTEND_URL
     ].filter(Boolean);
